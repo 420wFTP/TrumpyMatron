@@ -13,6 +13,7 @@ This uses the `mechanize` and `ssl` libraries in Python3. Running is as simple a
 Once form submission is enabled you will need to edit the appropriate fields in the code. Feel free to change this.
 
 ### NOTES:
+- Mechanize may not be the right tool here - Selenium is another option, but I've used a similar script to this in the past to _great_ effect.
 - I have successfully gotten Python to conenct to the webpage and open, bypassing `robots.txt`
 - This script does not yet submit the form, it just prints the webpage form information as parsed by `mechanize`
 - If feeling lazy but still want to run the survey submission loop, the survey can be submitted with just the text fields filled out. So you _could_ enable that and make the campaign chug empty responses... but where's the fun in that? This also probably means that this whole thing is an excercise in futility, but hey, have fun with it.
